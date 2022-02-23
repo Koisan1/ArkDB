@@ -12,43 +12,43 @@ var dailies = {
         task: "Rapport Songs",
         url: "https://papunika.com/affinity/",
         short: true,
-        desc: "5 Songs per day (+1 with Blessing)."
+        desc: "5 låtar per dag (+1 med Blessing)."
     },
     "rapport-actions-emotes": {
         task: "Rapport Emotes",
         url: "https://papunika.com/affinity/",
         short: true,
-        desc: "5 Emotes per day (+1 with Blessing)."
+        desc: "5 Emotes per dag (+1 med Blessing)."
     },
     "trade-skill": {
         task: "Trade Skill",
         url: "https://papunika.com/life-skill/",
         short: true,
-        desc: "Until energy is depleted."
+        desc: "Tills energin är slut."
     },
     "adventure-island": {
         task: "Adventure Island",
         url: "https://lostarkive.com/guides/beginner/sea-activities/",
         short: true,
-        desc: "Sat-Sun at 14:00 & 21:00.</br>Mon-Fri at 21:00."
+        desc: "Lör-Sön kl 14:00 & 21:00.</br>Mån-Fre kl 21:00."
     },
     "voyage-coop-mission": {
         task: "Sailing Co-Op Mission",
         url: "https://papunika.com/voyage-guide/",
         short: true,
-        desc: "Appears multiple times per day."
+        desc: "Flera gånger om dagen."
     },
     "world-boss": {
         task: "World Boss",
         url: "#",
         short: true,
-        desc: "Once per day (only on specific days)."
+        desc: "En gång om dagen (Endast vissa dagar)."
     },
     "chaos-gate": {
         task: "Chaos Gate",
         url: "#",
         short: true,
-        desc: "At specific times."
+        desc: "Vid specifika tidpunkter."
     },
 };
 
@@ -57,49 +57,49 @@ var dailychar = {
         task: "Chaos Dungeon 1",
         url: "https://lostarkive.com/guides/endgame/chaos-dungeons/",
         short: true,
-        desc: "Uses 50 Energy per run.</br>Gain 100 Energy per day."
+        desc: "Använder 50 energi per dungeon.</br>Du får 100 energi per dag."
     },
     "chaos-dungeon-2": {
         task: "Chaos Dungeon 2",
         url: "https://lostarkive.com/guides/endgame/chaos-dungeons/",
         short: true,
-        desc: "Uses 50 Energy per run.</br>Gain 100 Energy per day."
+        desc: "Använder 50 energi per dungeon.</br>Du får 100 energi per dag."
     },
     "guardian-raid": {
         task: "Guardian Raid 1",
         url: "https://papunika.com/guardian-subjugations/",
         short: true,
-        desc: "Uses 1 Guardian Soul per harvest.</br>Gain 2 Guardian Souls per day."
+        desc: "Använder 1 Guardian Soul per harvest.</br>Du får 2 Guardian Souls per dag."
     },
     "guardian-raid-2": {
         task: "Guardian Raid 2",
         url: "https://papunika.com/guardian-subjugations/",
         short: true,
-        desc: "Uses 1 Guardian Soul per harvest.</br>Gain 2 Guardian Souls per day."
+        desc: "Använder 1 Guardian Soul per harvest.</br>Du får 2 Guardian Souls per dag."
     },
     "una-daily": {
         task: "Una Daily 1",
         url: "https://papunika.com/unas-tasks-overview/",
         short: true,
-        desc: "3 Una tasks per day.</br>Can be expanded up to +3."
+        desc: "3 Unas tasks per dag.</br>Kan utökas upp till +3."
     },
     "una-daily-2": {
         task: "Una Daily 2",
         url: "https://papunika.com/unas-tasks-overview/",
         short: true,
-        desc: "3 Una tasks per day.</br>Can be expanded up to +3."
+        desc: "3 Unas tasks per dag.</br>Kan utökas upp till +3."
     },
     "una-daily-3": {
         task: "Una Daily 3",
         url: "https://papunika.com/unas-tasks-overview/",
         short: true,
-        desc: "3 Una tasks per day.</br>Can be expanded up to +3."
+        desc: "3 Unas tasks per dag.</br>Kan utökas upp till +3."
     },
     "guild-support": {
         task: "Guild Support",
         url: "#",
         short: true,
-        desc: "1 Donation per day.</br>1 Research Support per day."
+        desc: "1 Donation per dag.</br>1 Research Support per dag."
     },
 }
 
@@ -107,71 +107,71 @@ var weeklychar = {
     "guardian-challenge-mode": {
         task: "Guardian Challenge Mode 1",
         url: "https://papunika.com/guardian-subjugations/",
-        desc: "1 per week per Boss (3 in total)."
+        desc: "1 per vecka per Boss (3 totalt)."
     },
     "guardian-challenge-mode-2": {
         task: "Guardian Challenge Mode 2",
         url: "https://papunika.com/guardian-subjugations/",
-        desc: "1 per week per Boss (3 in total)."
+        desc: "1 per vecka per Boss (3 totalt)."
     },
     "guardian-challenge-mode-3": {
         task: "Guardian Challenge Mode 3",
         url: "https://papunika.com/guardian-subjugations/",
-        desc: "1 per week per Boss (3 in total)."
+        desc: "1 per vecka per Boss (3 totalt)."
     },
     "abyss-dungeon": {
         task: "Abyss Dungeon",
         url: "https://papunika.com/abyss-dungeons/",
         short: true,
-        desc: "Once per week per Abyss Dungeon.</br>You can only complete one difficulty per week."
+        desc: "En gång i veckan: Abyss Dungeon.</br>YDu kan bara slutföra en svårighet per vecka."
     },
     "una-weekly": {
         task: "Una Weekly 1",
         url: "https://papunika.com/unas-tasks-overview/",
         short: true,
-        desc: "3 Una tasks per week.</br>Can be expanded up to +1."
+        desc: "3 Unas tasks per vecka.</br>Kan utökas upp till +1."
     },
     "una-weekly-2": {
         task: "Una Weekly 2",
         url: "https://papunika.com/unas-tasks-overview/",
         short: true,
-        desc: "3 Una tasks per week.</br>Can be expanded up to +1."
+        desc: "3 Unas tasks per vecka.</br>Kan utökas upp till +1."
     },
     "una-weekly-3": {
         task: "Una Weekly 3",
         url: "https://papunika.com/unas-tasks-overview/",
         short: true,
-        desc: "3 Una tasks per week.</br>Can be expanded up to +1."
+        desc: "3 Unas tasks per vecka.</br>Kan utökas upp till +1."
     },
     "abyss-raid": {
         task: "Abyss Raid",
         url: "https://papunika.com/abyss-raids/",
         short: true,
-        desc: "1 per week per Abyss Raid."
+        desc: "1 per vecka per Abyss Raid."
     },
     "legion-raid": {
         task: "Legion Raid",
         url: "https://papunika.com/legion-raids/",
         short: true,
-        desc: "1 per week (shared between difficutlies)."
+        desc: "1 per vecka (delas mellan alla svårhetsgrader)."
     },
     "merchant-ship-exchange": {
         task: "Merchant Ship Exchange",
         url: "#",
         short: true,
-        desc: "Supply replenishes on weekly reset."
+        desc: "Fylls på varje reset."
     },
     "silmael-bloodstone-exchange": {
         task: "Silmael Bloodstone Exchange",
         url: "#",
         short: true,
-        desc: "Supply replenishes on weekly reset."
+        desc: "Fylls på varje reset."
     },
     "chaos-dungeon-shard-exchange": {
         task: "Chaos Dungeon Shard Exchange",
         url: "#",
         short: true,
-        desc: "Supply replenishes on weekly reset."
+        desc: "Fylls på varje reset."
     },
 }
 
