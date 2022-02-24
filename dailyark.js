@@ -12,7 +12,7 @@ var dailies = {
         task: "Rapport Songs",
         url: "https://papunika.com/affinity/",
         short: true,
-        desc: "5 låtar per dag (+1 med Blessing)."
+        desc: "5 Songs per dag (+1 med Blessing)."
     },
     "rapport-actions-emotes": {
         task: "Rapport Emotes",
@@ -107,23 +107,23 @@ var weeklychar = {
     "guardian-challenge-mode": {
         task: "Guardian Challenge Mode 1",
         url: "https://papunika.com/guardian-subjugations/",
-        desc: "1 per vecka per Boss (3 totalt)."
+        desc: "1 gång i veckan per Boss (3 totalt)."
     },
     "guardian-challenge-mode-2": {
         task: "Guardian Challenge Mode 2",
         url: "https://papunika.com/guardian-subjugations/",
-        desc: "1 per vecka per Boss (3 totalt)."
+        desc: "1 gång i veckan per Boss (3 totalt)."
     },
     "guardian-challenge-mode-3": {
         task: "Guardian Challenge Mode 3",
         url: "https://papunika.com/guardian-subjugations/",
-        desc: "1 per vecka per Boss (3 totalt)."
+        desc: "1 gång i veckan per Boss (3 totalt)."
     },
     "abyss-dungeon": {
         task: "Abyss Dungeon",
         url: "https://papunika.com/abyss-dungeons/",
         short: true,
-        desc: "En gång i veckan: Abyss Dungeon.</br>YDu kan bara slutföra en svårighet per vecka."
+        desc: "En gång per veckan: Abyss Dungeon.</br>YDu kan bara slutföra en svårighet per vecka."
     },
     "una-weekly": {
         task: "Una Weekly 1",
@@ -180,31 +180,31 @@ var weeklies = {
         task: "Challenge Abyss Dungeon",
         url: "https://papunika.com/abyss-dungeons/",
         short: true,
-        desc: "1 per week per Challenge Abyss Dungeon."
+        desc: "1 gång i veckan per Dungeon."
     },
     "gvg-guild-boss": {
         task: "GVG / Guild Boss",
         url: "#",
         short: true,
-        desc: "Once per week."
+        desc: "En gång per vecka."
     },
     "pvp-token-exchange": {
         task: "PVP Token Exchange",
         url: "#",
         short: true,
-        desc: "Supply replenishes on weekly reset."
+        desc: "Fylls på vid weely reset."
     },
     "ghost-ship": {
         task: "Ghost Ship",
         url: "https://lostarkive.com/guides/beginner/sea-activities/",
         short: true,
-        desc: "At specific times."
+        desc: "Specifika tider."
     },
     "pvp-island": {
         task: "PVP Island",
         url: "#",
         short: true,
-        desc: "Determined by the occupying guild."
+        desc: "Bestäms av guild.."
     },
 };
 
@@ -826,7 +826,7 @@ const layouts = function () {
     let currentLayout = storage.getItem('current-layout') ?? 'default';
     if (currentLayout !== 'default') {
         document.body.classList.add('compact');
-        layoutButton.innerHTML = '⊞<span class="expanding_text">&nbsp;Full Mode</span>';
+        layoutButton.innerHTML = '⊞<span class="expanding_text">&nbsp;Stort Läge</span>';
     }
 
     layoutButton.addEventListener('click', function (e) {
@@ -837,11 +837,11 @@ const layouts = function () {
         if (setLayout == 'default') {
             storage.setItem('current-layout', 'compact');
             document.body.classList.add('compact');
-            layoutButton.innerHTML = '⊞<span class="expanding_text">&nbsp;Full Mode</span>';
+            layoutButton.innerHTML = '⊞<span class="expanding_text">&nbsp;Stort Läge</span>';
         } else {
             storage.removeItem('current-layout');
             document.body.classList.remove('compact');
-            layoutButton.innerHTML = '⊟<span class="expanding_text">&nbsp;Compact Mode</span>';
+            layoutButton.innerHTML = '⊟<span class="expanding_text">&nbsp;Kompakt Läge</span>';
         }
     });
 };
